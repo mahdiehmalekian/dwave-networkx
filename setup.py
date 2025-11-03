@@ -30,21 +30,21 @@ packages = ['dwave_networkx',
             ]
 
 install_requires = ['networkx>=2.4',
-                    'dimod>=0.10.8',
+                    'dimod>=0.12.5',
                     'numpy>=1.17.3',
                     ]
 
-python_requires = ">=3.9"
+python_requires = ">=3.10"
 
 classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
     'Programming Language :: Python :: 3 :: Only',
-    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
     'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
 ]
 
 setup(
